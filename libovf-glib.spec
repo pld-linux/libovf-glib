@@ -70,9 +70,7 @@ Summary(pl.UTF-8):	API języka Vala do biblioteki libgovf
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 Requires:	vala
-%if "%{_rpmversion}" >= "4.6"
 BuildArch:	noarch
-%endif
 
 %description -n vala-libovf-glib
 Vala API for libgovf library.
